@@ -2,15 +2,17 @@
 
 ## 📌 Description
 
-The Smart PPE Detection System is a computer vision project that detects whether workers are wearing Personal Protective Equipment (PPE) such as helmets and safety vests.
+The Smart PPE Detection System is a computer vision-based project that detects whether workers are wearing Personal Protective Equipment (PPE) such as helmets and safety vests.
 
 This system uses the YOLOv8 object detection model to identify people and safety gear in images. It aims to improve safety compliance in environments like construction sites where accidents can occur if proper protective equipment is not used.
+
+This project focuses on applying a pre-trained model to a real-world problem rather than training a model from scratch.
 
 ---
 
 ## 🎯 Problem Statement
 
-On construction sites, workers often do not follow safety rules like wearing helmets and vests, which increases the risk of accidents.
+On construction sites, workers often fail to follow safety rules like wearing helmets and vests, which increases the risk of accidents.
 
 ---
 
@@ -47,7 +49,7 @@ This helps in quickly checking whether safety guidelines are being followed.
 
 ## 📂 Project Structure
 
-```
+```id="t5zj4x"
 Smart_PPE_Detection_system_using_YOLOv8/
 │
 ├── assets/
@@ -55,18 +57,21 @@ Smart_PPE_Detection_system_using_YOLOv8/
 ├── models/
 ├── output/
 ├── results/
-├── source_files/
-├── main.py
-└── README.md
+├── src/
+│   └── main.py
+│
+├── screenshots/
+├── Project_Report.pdf
+├── README.md
 ```
 
 ---
 
-## Installation
+## ⚙️ Installation
 
 Follow these steps to run the project:
 
-```bash
+```bash id="4d6m0m"
 git clone https://github.com/your-username/Smart_PPE_Detection_system_using_YOLOv8.git
 cd Smart_PPE_Detection_system_using_YOLOv8
 pip install ultralytics opencv-python numpy
@@ -74,35 +79,25 @@ pip install ultralytics opencv-python numpy
 
 ---
 
-## Usage
+## ▶️ Usage
 
-```bash
-python main.py
+```bash id="d6p7qz"
+python src/main.py
 ```
 
 * Make sure to update the input image path inside the code
-* The output will show detected objects with bounding boxes
+* The output will display detected objects with bounding boxes
 
 ---
 
-## Screenshots
+## 📄 Project Report
 
-(Add screenshots here after creating a screenshots folder)
-
-* Output image showing detection
-* Code execution
-* Folder structure
+📥 Download the full report here:
+👉 [Click to View Report](./Project_Report.pdf)
 
 ---
 
-## Project Report
-
-The detailed project report is included in this repository:
-[Project_Report.pdf](./Tanya_BYOP_Report 3.pdf)
-
----
-
-## Challenges Faced
+## ⚠️ Challenges Faced
 
 * Installing and setting up required libraries
 * Understanding YOLOv8 usage
@@ -111,7 +106,7 @@ The detailed project report is included in this repository:
 
 ---
 
-## Key Learnings
+## 📚 Key Learnings
 
 * Understanding object detection in real-world applications
 * Using pre-trained models effectively
@@ -120,7 +115,7 @@ The detailed project report is included in this repository:
 
 ---
 
-## Future Scope
+## 🔮 Future Scope
 
 * Extend to real-time video detection
 * Improve accuracy with custom training
@@ -129,14 +124,14 @@ The detailed project report is included in this repository:
 
 ---
 
-## Author
+## 👤 Author
 
 **Tanya Chandrakar**
 Computer Vision BYOP Project
 
 ---
 
-## References
+## 📚 References
 
 * Ultralytics YOLOv8 Documentation
 * OpenCV Documentation
@@ -144,6 +139,6 @@ Computer Vision BYOP Project
 
 ---
 
-##  Acknowledgement
+## ⭐ Acknowledgement
 
 This project was developed as part of the Computer Vision BYOP course to apply AI concepts to real-world problems.
