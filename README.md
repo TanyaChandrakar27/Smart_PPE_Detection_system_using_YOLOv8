@@ -98,7 +98,7 @@ python main.py
 ## Project Report
 
 The detailed project report is included in this repository:
-[Project_Report.pdf](./Project_Report.pdf)
+[Project_Report.pdf](./Tanya_BYOP_Report 3.pdf)
 
 ---
 
